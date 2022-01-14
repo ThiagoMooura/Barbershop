@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://kit.fontawesome.com/fa553613b7.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/hairstyle.png" alt="">
+        </div>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a id="home" href="#homee">Início</a></li>
+                <li><a id="servicos" href="#servicoss">Serviços</a></li>
+                <li><a id="sobre" href="#sobree">Sobre</a></li>
+                <li><a id="equipe" href="#equipee">Barbeiros</a></li>
+                <li><a id="galeria" href="#galeriaa">Galeria</a></li>
+                <li><a id="precos" href="#precoss">Preços</a></li>
+                <li><a id="local" href="#localizacaoo">Localização</a></li>
+            </ul>
+        </nav>
+        <div onclick="toggle()" class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <section id="homee" class="home">
+        <div class="overlay">
+            <div class="overlay-content">
+                <h1>premium</h1>
+                <p>A barbearia líder em estética masculina</p>
+                <a class="overlay-button" href="assets/whatsapp.html">agendamento online</a>
+                <div class="arrow"></div>
+            </div>
+        </div>
+        <div class="whatsapp"><a href="assets/whatsapp.html"><img src="assets/images/whatsapp-logo-1.png" alt=""></a></div>
+    </section>
+    <section  id="servicoss" class="servicos" >
+        <h1 data-aos="fade-up" data-aos-duration="500">nossos serviços</h1>
+            <div class="servicos-grid">
+                <div class="item1" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="icon"><img src="assets/images/cabelo (1).svg" alt=""></div>
+                    <span>Cabelo e barba</span>
+                </div>
+                <div class="item1 alternative1" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="icon"><img src="assets/images/spray.png" alt=""></div>
+                    <span>química capilar</span>
+                </div>
+                <div class="item1 alternative2" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="icon"><img src="assets/images/cerveja.png" alt=""></div>
+                    <span>bar</span>
+                </div>
+                <div class="item1" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="icon"><img src="assets/images/sombrancelha.png" alt=""></div>
+                    <span>sombrancelha</span>
+                </div>
+            </div>
+    </section>
+    <section id="sobree" class="sobre">
+        <div class="overlay">
+            <div class="sobre-content">
+                <h1>sobre</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+            </div>
+        </div>
+    </section>
+    <section id="equipee" class="barbeiros">
+        <div class="wrapper">
+            <h1>Nossa equipe</h1>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="card-image1"></div>
+                    <div class="card-name">
+                        <h2>Matheus</h2>
+                        <p>Barbeiro</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image2"></div>
+                    <div class="card-name">
+                        <h2>Douglas</h2>
+                        <p>Barbeiro</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image3"></div>
+                    <div class="card-name">
+                        <h2>Gabriel</h2>
+                        <p>Barbeiro</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image4"></div>
+                    <div class="card-name">
+                        <h2>Gustavo</h2>
+                        <p>Barbeiro</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image5"></div>
+                    <div class="card-name">
+                        <h2>Felipe</h2>
+                        <p>Barbeiro</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image6"></div>
+                    <div class="card-name">
+                        <h2>Marcos</h2>
+                        <p>Barbeiro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="galeriaa" class="galeria">
+        <h1 data-aos="fade-up" data-aos-duration="500">Galeria</h1>
+        <div class="grid-galeria">
+            <div data-aos="zoom-in" class="pic-1">
+                <a target="_blank" href="https://www.instagram.com/"><img src="assets/images/Galeria/galeria1.png" alt=""></a>
+                <a class="link-hover" href=""><div class="galeria-hover"><i class="fab fa-instagram"></i></div></a>
+            </div>
+            <div data-aos="zoom-in-up" class="pic-1">
+                <a target="_blank" href="https://www.instagram.com/"><img src="assets/images/Galeria/galeria2.png" alt=""></a>
+                <a href=""><div class="galeria-hover"><i class="fab fa-instagram"></i></div></a>
+            </div>
+            <div data-aos="zoom-in-up" class="pic-1">
+                <a target="_blank" href="https://www.instagram.com/"><img src="assets/images/Galeria/galeria3.png" alt=""></a>
+                <a href=""><div class="galeria-hover"><i class="fab fa-instagram"></i></div></a>
+            </div>
+            <div data-aos="zoom-in-up" class="pic-1">
+                <a target="_blank" href="https://www.instagram.com/"><img src="assets/images/Galeria/galeria4.png" alt=""></a>
+                <a href=""><div class="galeria-hover"><i class="fab fa-instagram"></i></div></a>
+            </div>
+            <div data-aos="zoom-in-up" class="pic-1">
+                <a target="_blank" href="https://www.instagram.com/"><img src="assets/images/Galeria/galeria5.png" alt=""></a>
+                <a href=""><div class="galeria-hover"><i class="fab fa-instagram"></i></div></a>
+            </div>
+            <div data-aos="zoom-in-up" class="pic-1">
+                <a target="_blank" href="https://www.instagram.com/"><img src="assets/images/Galeria/galeria6.png" alt=""></a>
+                <a href=""><div class="galeria-hover"><i class="fab fa-instagram"></i></div></a>
+            </div>
+        </div>
+    </section>
+    <section id="precoss" class="precos">
+        <h1>Preços</h1>
+        <div data-aos="fade-up" data-aos-duration="500" class="precos-content">
+            <div class="precos-text">
+                <h2>Corte</h2>
+                <h2>R$ 35,00</h2>
+            </div>
+            <div class="precos-text">
+                <h2>Barba</h2>
+                <h2>R$ 20,00</h2>
+            </div>
+            <div class="precos-text">
+                <h2>Sombrancelha</h2>
+                <h2>R$ 15,00</h2>
+            </div>
+            <div class="precos-text">
+                <h2>Cabelo + barba</h2>
+                <h2>R$ 50,00</h2>
+            </div>
+            <div class="precos-text">
+                <h2>Luzes</h2>
+                <h2>R$ 30,00</h2>
+            </div>
+            <div class="precos-text">
+                <h2>Platinado</h2>
+                <h2>R$ 60,00</h2>
+            </div>
+            <div class="precos-text">
+                <h2>Outro</h2>
+                <h2><a href="assets/whatsapp.html">Clique aqui</a></h2>
+            </div>
+        </div>
+    </section>
+    <section id="localizacaoo" class="localizacao">
+        <h1>Localização</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1536.8095447157004!2d-47.214176552809434!3d-22.863772589573067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8beaabd559e75%3A0xe355ed7d33d61972!2sShopping%20Hortol%C3%A2ndia!5e0!3m2!1spt-BR!2sbr!4v1626889038368!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <footer>
+        <div class="footer-logo">
+            <img src="assets/images/hairstyle.png" alt="">
+        </div>
+        <div class="footer-content">
+            <div class="funcionamento">
+                <h2>Funcionamento</h2>
+                <div class="funcionamento-content"><p>Segunda</p><p>8:00 <span>-</span> 21:00</p></div>
+                <div class="funcionamento-content"><p>Terça</p><p>8:00 <span>-</span> 21:00</p></div>
+                <div class="funcionamento-content"><p>Quarta</p><p>8:00 <span>-</span> 21:00</p></div>
+                <div class="funcionamento-content"><p>Quinta</p><p>8:00 <span>-</span> 21:00</p></div>
+                <div class="funcionamento-content"><p>Sexta</p><p>8:00 <span>-</span> 21:00</p></div>
+                <div class="funcionamento-content"><p>Sabado</p><p>10:00 <span>-</span> 19:00</p></div>
+                <div class="funcionamento-content"><p>Domingo</p><p>10:00 <span>-</span> 19:00</p></div>
+            </div>
+            <div class="redes-sociais">
+                <h2>Redes sociais</h2>
+                <div class="redes-sociais-content">
+                    <a target="_blank" href="https://pt-br.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://twitter.com/twitter"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="https://www.spotify.com/br/"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="creditos"><h3>Designed & codded by <span>Thiago Moura</span></h3></div>
+    </footer>
+
+<script src="assets/javascript/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>
